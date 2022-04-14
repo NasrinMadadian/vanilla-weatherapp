@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+  box-sizing: border-box;
+    max-width: 55rem;
+    margin: 2rem auto 0;
+   border: 1px solid gray;
+   border-radius: 0.4rem;
+   padding: 0.2rem 0 1rem;
+   
+  }
+ body {
+    font-family: 'Catamaran', sans-serif;
+    
+}
+.search{
+  display: block;
+  align-items: center;
+  margin: 0.8rem auto 0;
+  padding: 2rem;
+}
+.search-box{
+     font-size: 1.5rem;
+     border-width: 1px;
+     width: 20rem;
+     margin-left: 15rem;
+     border-color: grey;
+     border-radius: 0.4rem;
+     height: 2.5rem;
+     background-color: transparent;
+outline: none;
+  
+}
+
+.search-btn {
+  font-size:15px;
+  font-family:Arial;
+  width: 8rem;
+  height: 2.5rem;
+  
+  border-radius: 0.4rem;
+  color:#fff;
+  border-color:#18ab29;
+  font-weight:bold;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#44c767;
+}
+
+.search-btn:hover {
+  background: #5cbf2a;
+}
+h1{
+  margin-bottom: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+  
+}
+li::first-letter{
+  text-transform: capitalize;
+}
+
+.current-wrapper{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 3rem;
+align-items: center;
+height: 12rem;
+margin: 0rem auto 2rem;
+}
+.current{
+  text-align: left;
+  justify-content: center;
+ font-size: 20px;
+  margin: 4rem;
+}
+.current-temp{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 15rem;
+  font-size: 30px;
+}
+.current-temp .active{
+  cursor: default;
+  color: black;
+}
+.current-temp .active:hover{
+  text-decoration: none;
+}
+.current-temp a{
+  text-decoration: none;
+}
+.describtion{
+ font-size: 20px;
+}
+.forecast-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.forecast{
+ 
+  text-align: center;
+  padding: 0.4rem;
+}   
+.temp-forecast{
+display: flex;
+justify-content: space-around;
+
+}
+footer{
+  text-align: center;
+  margin-top: 0;
+ 
+}
